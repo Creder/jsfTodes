@@ -3,10 +3,12 @@ import org.primefaces.model.DefaultTreeNode;
 import org.primefaces.model.TreeNode;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 import java.io.IOException;
 import java.util.List;
 
 @ManagedBean
+@SessionScoped
 public class Catalog {
 
     public TreeNode getRoot() throws IOException {

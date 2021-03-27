@@ -1,15 +1,9 @@
-import org.primefaces.shaded.json.JSONObject;
-
-import java.io.IOException;
-import java.net.URL;
-import java.util.List;
-
 public class RepoElement{
-    int id;
-    String name;
-    String content;
-    boolean folder;
-    int parent;
+    private int id;
+    private String name;
+    private String content;
+    private boolean folder;
+    private int parent;
 
     public RepoElement(){
 
